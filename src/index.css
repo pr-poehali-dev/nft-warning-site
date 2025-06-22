@@ -53,26 +53,21 @@
   .neon-text {
     @apply text-cyber-cyan;
     text-shadow:
-      0 0 5px currentColor,
-      0 0 10px currentColor,
-      0 0 15px currentColor;
+      0 0 5px #00ffff,
+      0 0 10px #00ffff,
+      0 0 15px #00ffff;
   }
 
   .neon-border {
     @apply border border-cyber-cyan;
     box-shadow:
-      0 0 5px theme("colors.cyber.cyan"),
-      0 0 10px theme("colors.cyber.cyan"),
-      inset 0 0 5px theme("colors.cyber.cyan");
+      0 0 5px #00ffff,
+      0 0 10px #00ffff,
+      inset 0 0 5px #00ffff;
   }
 
   .cyber-gradient {
-    background: linear-gradient(
-      135deg,
-      theme("colors.cyber.cyan") 0%,
-      theme("colors.cyber.pink") 50%,
-      theme("colors.cyber.purple") 100%
-    );
+    background: linear-gradient(135deg, #00ffff 0%, #ff0080 50%, #8b5cf6 100%);
   }
 
   .glass-effect {
